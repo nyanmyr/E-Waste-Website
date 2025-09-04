@@ -4,22 +4,24 @@
 
 	text-align: center;
 
-	background-color: black;
+	background-color: #2A2424;
 	color: white;
 }
 
 a {
 	text-decoration: none;
-	background-color: green;
+	background-color: #90CAC3;
 }
 
 .header {
 	width: 100%;
-	height: 6.5vh;
+	height: 10vh;
 
 	font-size: 2rem;
 
-	background-color: green;
+	background-color: #90CAC3;
+
+	margin-bottom: 1vh;
 }
 
 #logo {
@@ -32,9 +34,9 @@ a {
 	display: inline-block;
 
 	width: 80vw;
-	height: 90vh;
+	height: 135vh;
 
-	background-color: blue;
+	background-color: #E0D4B0;
 }
 
 .article_main,
@@ -47,28 +49,75 @@ a {
 	margin-left: 10vw;
 	margin-right: 10vw;
 
-	background-color: grey;
+	text-align: justify;
+
+	background-color: #2A2424;
+}
+
+#main_left
+{
+	float: left;
+
+	width: 25%;
+	height: 100%;
+}
+
+#main_right
+{
+	float: right;
+
+	width: 75%;
+	height: 100%;
+
+	text-align: justify;
+}
+
+#main_img
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .article_left,
 .article_right {
-	display: inline-block;
-	width: 30vw;
+	float: left;
 
-	margin-left: 0vw;
+	width: 29vw;
 
-	margin-right: 0;
+	margin-left: 10vw;
+	margin-right: 0vw;
+
+	padding-left: 0vw;
+	padding-right: 0vw;
 }
 
 .article_right {
+	float: right;
+
 	margin-left: 0vw;
+	margin-right: 10vw;
+}
+
+#article_l_left
+{
+	width: inherit;
+	height: 20vh;
+}
+
+#article_l_right
+{
+	width: inherit;
+	height: 20vh;
 }
 
 .footer {
 	width: 100%;
 	height: 20vh;
 
+	margin-top: 1vh;
+
 	text-align: center;
 
-	background-color: green;
+	background-color: #90CAC3;
 }
